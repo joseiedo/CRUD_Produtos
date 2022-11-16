@@ -74,7 +74,7 @@ Por padrão, a porta usada é a **localhost:8080**.
 
 #### Remove um produto
 ```http
-  PUT /produtos/remover/{id}
+  DELETE /produtos/remover/{id}
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
